@@ -299,26 +299,24 @@ header.hide {
 }
 .slider-images {
   display: inline-block;
-  animation: brand 35s linear 0s infinite;
+  animation: brand 55s linear 0s infinite;
   margin-bottom: 30px;
-}
-.animation-reverse {
-  display: inline-block;
-  animation: brand-reverse 36s linear 0s infinite;
 }
 .slider-images img {
   filter: grayscale(100%);
   transition: all 0.2s ease;
   cursor: pointer;
-  width: 80px;
+  width: 30px;
   object-fit: cover;
-  margin: 0 40px;
-  padding: 0x 40px;
 }
 .slider-images .tech {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #92ff6a;
   text-align: center;
   display: inline-block;
-  font-size: 20px;
+  padding: 3px 5px;
+  font-size: 16px;
   font-weight: 600;
   user-select: none;
 }
@@ -330,14 +328,7 @@ header.hide {
     transform: translateX(-100%);
   }
 }
-@keyframes brand-reverse {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
+
 /* ============  Technology End ============= */
 
 /* ============  Our Service  Start ============= */
