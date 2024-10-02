@@ -303,16 +303,16 @@ header.hide {
   margin-bottom: 30px;
 }
 .slider-images img {
-  filter: grayscale(100%);
   transition: all 0.2s ease;
   cursor: pointer;
   width: 30px;
   object-fit: cover;
 }
 .slider-images .tech {
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #000000;
   border-radius: 5px;
-  border: 1px solid #92ff6a;
+  border: 1px solid #88888798;
   text-align: center;
   display: inline-block;
   padding: 3px 5px;
@@ -343,14 +343,14 @@ header.hide {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 14px;
   position: relative;
-  min-height: 140px;
+  min-height: 120px;
   padding: 5px;
-  margin: 10px 0px;
-  border-radius: 0px 30px;
+  margin: 0px 0px;
+  border: 1px solid #585858;
   color: #ffffff;
   background-color: #131412;
-  font-size: 20px;
   overflow: hidden;
   z-index: 2;
 }
@@ -836,10 +836,6 @@ footer .copyright a {
   .top-content p {
     width: 100%;
   }
-  .slider-images img {
-    width: 90px;
-    margin: 0 20px;
-  }
 }
 @media (max-width: 768px) {
   .hero-section h1 {
@@ -869,7 +865,7 @@ footer .copyright a {
     font-size: 18px;
   }
   .include-service .item {
-    min-height: 180px;
+    min-height: 100px;
   }
   .technology-section .slider-images img {
     width: 50px;
