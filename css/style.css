@@ -501,6 +501,10 @@ header.hide {
   border: 1px dashed #9e9e9e;
   background-color: #dfc8c8;
 }
+.pricing-section .row .col-5 p , .pricing-section .row .col-7 p{
+  min-height: 100px;
+  padding-top: 35px;
+}
 .pricing-section .row p{
   margin-bottom: 0;
 }
