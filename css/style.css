@@ -887,10 +887,11 @@ footer .copyright a {
   }
   .include-service .item h4,
   .choose-section .item h4 {
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: normal;
   }
   .include-service .item {
-    min-height: 100px;
+    min-height: 130px;
   }
   .technology-section .slider-images img {
     width: 50px;
