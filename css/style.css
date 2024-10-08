@@ -262,11 +262,14 @@ header.hide {
 /* ============ Hero-section End ============= */
 
 /* ============  Technology  Start ============= */
-.technology-section {
+.feature-section {
   background-color: var(--primary-color);
 }
-.technology-section .top-content {
+.feature-section .top-content {
   background-image: linear-gradient(0deg, var(--primary-color), #131412d2);
+}
+.feature-section .slider-images .tech{
+  color: #b9b9b9;
 }
 .sponsor-content {
   margin-bottom: 50px;
@@ -354,6 +357,7 @@ header.hide {
   border: 1px solid #585858;
   color: #ffffff;
   background-color: #131412;
+  color: #8b8b8b;
   overflow: hidden;
   z-index: 2;
 }
@@ -893,14 +897,14 @@ footer .copyright a {
   .include-service .item {
     min-height: 130px;
   }
-  .technology-section .slider-images img {
+  .feature-section .slider-images img {
     width: 50px;
     margin: 0 10px;
   }
-  .technology-section .slider-images {
+  .feature-section .slider-images {
     margin-bottom: 0px;
   }
-  .technology-section .slider-images .tech {
+  .feature-section .slider-images .tech {
     font-size: 14px;
   }
   .accordion-header .accordion-button {
@@ -940,13 +944,13 @@ footer .copyright a {
   .include-service .item p {
     font-size: 0.9rem;
   }
-  .technology-section .container {
+  .feature-section .container {
     padding: 0;
   }
-  .technology-section .slider-images img {
+  .feature-section .slider-images img {
     width: 40px;
   }
-  .technology-section .slider-images .tech {
+  .feature-section .slider-images .tech {
     font-size: 12px;
   }
   .accordion-button {
