@@ -205,7 +205,7 @@ header.hide {
   color: var(--secondary-color);
   border-radius: 5px;
   background-color: #000000;
-  padding: 12px 20px;
+  padding: 12px 5px;
 }
 .hero-content .small::after {
   position: absolute;
@@ -913,11 +913,11 @@ footer .copyright a {
 }
 @media (max-width: 576px) {
   .hero-content .small {
-    width: 355px;
+    width: 330px;
     height: 50px;
   }
   .hero-content .small::after {
-    width: 360px;
+    width: 335px;
     height: 55px;
   }
   .hero-content iframe{
